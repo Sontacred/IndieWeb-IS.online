@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 1px solid red;
+}
+
+:root {
+    --background: #101010;
+    --text: #FFFFFF;
+    --primary: #e094ea;
+    --secondary: #afea94;
+    --terciary: #252525;
+    --accent: #4a4a4a;
+
+    --radius: 0px;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.global-container {}
+
+.side-container {}
+
+.main-container {}
+
+header {}
+
+main {}
+
+footer {}
