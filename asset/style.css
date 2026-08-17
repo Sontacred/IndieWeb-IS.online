@@ -44,6 +44,8 @@ a:hover {
     height: 100%;
 }
 
+/* 01 SIDE -------------------------------------------------- */
+
 .side-container {
     display: flex;
     flex-direction: column;
@@ -112,6 +114,8 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+/* 02 MAIN -------------------------------------------------- */
+
 .main-container {
     overflow-y: auto;
     scrollbar-width: none;
@@ -123,6 +127,8 @@ nav a:hover {
     padding: 60px 0 20px 0;
     gap: 20px;
 }
+
+/* banner */
 
 .banner {
     /* border-radius: var(--radius); */
@@ -139,6 +145,8 @@ nav a:hover {
     width: 100%;
 }
 
+/* header */
+
 header {
     border-bottom: 2px dotted #4a4a4a;
     display: flex;
@@ -147,10 +155,14 @@ header {
     padding: 20px;
 }
 
+/* main */
+
 main {
     height: 600px;
     padding: 20px;
 }
+
+/* footer */
 
 footer {
     border-top: 2px dotted #4a4a4a;
@@ -188,3 +200,5 @@ footer img {
     flex-direction: row;
     gap: 10px;
 }
+
+/* 99 MORES -------------------------------------------------- */
