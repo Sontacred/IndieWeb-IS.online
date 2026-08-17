@@ -49,7 +49,7 @@ a:hover {
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
-    width: 340px;
+    width: 280px;
     height: 100%;
     padding: 60px 20px 20px 20px;
 }
@@ -61,15 +61,21 @@ a:hover {
 }
 
 .title {
+    /* border: 2px dotted #4a4a4a;
+    border-radius: var(--radius); */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 nav {
+    /* border: 2px dotted #4a4a4a;
+    border-radius: var(--radius); */
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     gap: 10px;
 }
 
@@ -83,17 +89,27 @@ nav a {
     align-items: center;
     justify-content: center;
     padding: 6px 10px;
-    border-radius: 106px;
+    border-radius: 12px;
     transition: 50ms ease-in;
 }
 
 nav a:hover {
     border: 2px solid #e094ea;
-    background: #252525;
+    background: #e094ea22;
     color: #e094ea;
     text-decoration: none;
     transition: 50ms ease-out;
-    scale: 1.1;
+    scale: 1.05;
+}
+
+.active {
+    border: 2px solid #e094ea;
+    background: #e094ea;
+    color: #FFFFFF;
+}
+
+.active:hover {
+    color: #FFFFFF;
 }
 
 .main-container {
