@@ -49,7 +49,7 @@ a:hover {
 .side-container {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     width: 280px;
     height: 100%;
@@ -105,13 +105,16 @@ nav a:hover {
 }
 
 .active {
-    border: 2px solid #e094ea;
-    background: #e094ea;
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    color: #101010;
 }
 
 .active:hover {
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    color: #101010;
+    scale: 1;
 }
 
 /* 02 MAIN -------------------------------------------------- */
