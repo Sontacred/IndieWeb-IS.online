@@ -43,7 +43,8 @@ a:hover {
     height: 100%;
 }
 
-/* 01 SIDE -------------------------------------------------- */
+/* 01 SIDE -------------------------------------------------- *\ 
+\* all the necessary to navigate through the website -------- */
 
 .side-container {
     display: flex;
@@ -54,6 +55,13 @@ a:hover {
     height: 100%;
     padding: 60px 20px 20px 20px;
 }
+/* alternative version with fixed [side] and centered [main]:
+    ---
+    position: fixed;
+    left: 0;
+    top: 0; 
+    height: 100vh;
+*/
 
 .side-item {
     display: flex;
@@ -68,6 +76,8 @@ a:hover {
     justify-content: space-between;
     padding: 10px;
 }
+
+/* [nav] list of links to the main pages of the website */
 
 nav {
     display: flex;
@@ -98,19 +108,22 @@ nav a:hover {
     scale: 1.05;
 }
 
+/* [active] unique style for opened page link in the navbar */
+
 .active {
-    border: 2px solid #e094ea;
-    background: #e094ea;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
     color: #101010;
 }
 .active:hover {
-    border: 2px solid #e094ea;
-    background: #e094ea;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
     color: #101010;
-    scale: 1.05;
+    scale: 1;
 }
 
-/* 02 MAIN -------------------------------------------------- */
+/* 02 MAIN -------------------------------------------------- *\
+\* Everything content specific to the active page opened ---- */
 
 .main-container {
     overflow-y: auto;
@@ -124,13 +137,15 @@ nav a:hover {
     gap: 20px;
 }
 
-/* banner */
+/*  [banner] an illustration specific to each page that shows above the content */
 
 .banner {
     border-radius: var(--radius);
     width: 100%;
     height: 200px;
 }
+
+/*  [content] everything that is unique to the active page */
 
 .content {
     border: 2px dotted #4a4a4a;
@@ -141,7 +156,7 @@ nav a:hover {
     width: 100%;
 }
 
-/* header */
+/*  [header] title of the page and subtitle if needed */
 
 header {
     border-bottom: 2px dotted #4a4a4a;
@@ -151,14 +166,14 @@ header {
     padding: 20px;
 }
 
-/* main */
+/*  [main] all the text, image and links specific the the active page organised */
 
 main {
     height: 600px;
     padding: 20px;
 }
 
-/* footer */
+/*  [footer] bottom of page with reccuring usefull links and stuff */
 
 footer {
     border-top: 2px dotted #4a4a4a;
@@ -197,4 +212,5 @@ footer img {
     gap: 10px;
 }
 
-/* 99 MORES -------------------------------------------------- */
+/* 99 MORES -------------------------------------------------- *\
+\* Additionnal usefull things -------------------------------- */
