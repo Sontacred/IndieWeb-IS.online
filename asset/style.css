@@ -105,16 +105,16 @@ nav a:hover {
 }
 
 .active {
-    border: 2px solid #FFFFFF;
-    background: #FFFFFF;
+    border: 2px solid #e094ea;
+    background: #e094ea;
     color: #101010;
 }
 
 .active:hover {
-    border: 2px solid #FFFFFF;
-    background: #FFFFFF;
+    border: 2px solid #e094ea;
+    background: #e094ea;
     color: #101010;
-    scale: 1;
+    scale: 1.05;
 }
 
 /* 02 MAIN -------------------------------------------------- */
@@ -134,7 +134,7 @@ nav a:hover {
 /* banner */
 
 .banner {
-    /* border-radius: var(--radius); */
+    border-radius: var(--radius);
     width: 100%;
     height: 200px;
 }
